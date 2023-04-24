@@ -142,9 +142,17 @@ h6,
     opacity: .5;
 }
 
+.button:first-child:hover {
+    background: #D9CCD5;
+}
+
 .button:nth-child(2n) {
     border: solid 1px #C0C0C0;
     color: #000;
     background: #fff;
     opacity: .5;
+}
+
+.button:nth-child(2n):hover {
+    background: #D9CCD5;
 }
